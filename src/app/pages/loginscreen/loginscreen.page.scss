@@ -1,0 +1,112 @@
+ion-content{
+
+    --ion-background-colour:#98add1;
+};
+ion-header{
+    position: absolute;
+};
+ion-toolbar{
+    --ion-background-color:transparent;
+    --opacity:0;
+}
+ion-card{
+    box-shadow: none;
+}
+.img1{
+    width:110%;
+    margin-top: 150px;
+    position:absolute;
+    
+}
+.img2{
+    width: 100%;
+    margin-top: 20px;
+    position:absolute;
+    
+}
+.home{
+    
+    width: 20%;
+    margin-left: 220px;
+}
+.credentials1{
+    font-size: smaller;
+    position: relative;
+    height: 0.8cm;
+    width:50%;
+    margin-left: 135px;
+    margin-top: 240px;
+   
+}
+.credentials2{
+    position: relative;
+    font-size: smaller;
+    height: 0.8cm;
+    width:50%;
+    margin-left: 135px;
+   
+}
+.login
+{
+    
+    color:white;
+    width:50%;
+    margin-left: 80px;
+    margin-top: 2px;
+    font-size:small;
+    
+    
+}
+.login:hover {
+    transform: scale(1.1);
+  }
+.fpassword{
+    color: rgb(0, 0, 0);
+    font-size: small;
+    margin-left: 170px;
+    margin-top: 25px;
+    position: relative;
+
+}
+.fpassword:hover{
+    text-decoration: underline;
+}
+.txt1{
+    text-align:  center;
+    font-size: smaller;
+}
+.socialbut
+{
+    
+  
+.licon:hover {
+        transform: scale(1.1);
+      }
+.licon
+    {
+      width:12%;
+        margin-left: 45px;
+        
+    }
+    .licon1:hover {
+        transform: scale(1.1);
+      }
+    .licon1
+    {
+        margin-left: 20px;
+     width:25%
+            
+    }
+    
+
+}
+.signup:hover {
+    transform: scale(1.1);
+  }
+.signup
+{
+    color:blue;
+    width:20%;
+    font-size: smaller;
+    
+}

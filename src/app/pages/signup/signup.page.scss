@@ -1,0 +1,56 @@
+ion-content{
+
+    --ion-background-colour:#98add1;
+};
+ion-header{
+    position: absolute;
+};
+ion-toolbar{
+    --ion-background-color:transparent;
+    --opacity:0;
+}
+ion-card{
+    box-shadow: none;
+}
+.img1{
+    position: absolute;
+}
+.home{
+    
+    width: 20%;
+    margin-left: 220px;
+}
+.txt1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: medium;
+    font-style: italic;
+    position:relative;
+}
+.txt2{
+   margin-top: 25px;
+}
+
+.login:hover {
+    transform: scale(1.1);
+  }
+.login
+{
+    color:white;
+    width:35%;
+    margin-left: 90px;
+    margin-top: 25px;
+    
+    
+}
+.signup:hover {
+    transform: scale(1.1);
+  }
+.signup
+{
+    color:blue;
+    width:35%;
+    margin-left: 90px;
+    margin-top: 25px;
+    
+}

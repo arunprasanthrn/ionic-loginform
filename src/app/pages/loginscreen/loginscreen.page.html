@@ -1,0 +1,40 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img   class="img2" src="assets\images\5.jpg"></ion-img>
+  <ion-img   class="img1" src="assets\images\lgscreen.jpg">
+  
+  </ion-img>
+  
+  <ion-item class="credentials1">
+    <ion-input type="text" name="email"  [(ngModle)]="email"  placeholder="Email" required></ion-input>
+  </ion-item>
+  <ion-item class="credentials2">
+    <ion-input type="password" name="password"  [(ngModle)]="password"  placeholder="***********" required></ion-input>
+  </ion-item>
+  
+  
+ 
+  <p class="fpassword"(click)="RedirectToForgotPassword()">Forgot Password</p>
+  <ion-button fill="solid" shape="round" class="login ">Click TO Login</ion-button>
+
+  
+  <div class="socialbut">
+    <p class="txt1" >Or Login Via</p>
+    <ion-button fill="clear"  class="licon ion-no-padding">
+      <ion-img    src="assets\images\facebook.png"></ion-img>
+    </ion-button>
+    <ion-button fill="clear"  class="licon ion-no-padding">
+      <ion-img    src="assets\images\apple.png"></ion-img>
+    </ion-button>
+    <ion-button fill="clear"  class="licon1">
+      <ion-img    src="assets\images\google.png"></ion-img>
+     </ion-button>
+  </div>
+  <p class="txt1" >don't have account ? <ion-button fill="outline" shape="round"  class="signup" (click)=" RedirectTosignup()">signup</ion-button></p>
+  <ion-img  class="home" src="assets\images\home.png"  (click)="RedirectTologin()"></ion-img>
+</ion-content>
