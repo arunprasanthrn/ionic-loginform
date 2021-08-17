@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import { FormGroup,FormBuilder, FormControl,Validators } from '@angular/forms';
+import { AuthService } from 'src/app/services/auth.service';
+
 @Component({
   selector: 'app-loginscreen',
   templateUrl: './loginscreen.page.html',
@@ -18,7 +20,7 @@ export class LoginscreenPage implements OnInit {
   }
 
   validationFormUser:FormGroup;
-  constructor(public router:Router ,public formbuilder:FormBuilder) { }
+  constructor(public router:Router ,public formbuilder:FormBuilder,public authservice:AuthService) { }
   RedirectToForgotPassword()
   {
     this.router.navigateByUrl('/forgotpassword');
@@ -44,10 +46,18 @@ export class LoginscreenPage implements OnInit {
         ]))
       })
     
-
+     
     }
   
-
-
+    LoginUser(value){
+      console.log("Am logged in");
+      try{
+         this.authservice.loginFireAuth(value).then( resp =>{
+           console.log(resp);
+           this.router.navigateByUrl('/login');
+      })
+    }catch(err){
+        console.log(err);
+      }
+    }
 }
-

@@ -50,6 +50,14 @@ ion-card{
     margin-left: 80px;
     margin-top: 2px;
     font-size:small;
+    --ion-primary-color:#215AB7;
+    --background-activated:#E1EAF9;
+    --background-focused:#E1EAF9;
+    --background-hover:#647B9D;
+    color:#F4F6FA;
+    border-radius: 25px;
+    --background:#215AB7;
+    background-color: #215AB7;
     
     
 }
@@ -106,3 +114,18 @@ ion-card{
     font-size: smaller;
     
 }
+.sign-btn-wrap{
+    text-align: center;
+    padding-top: 20px;
+   .sign-btn{
+     --ion-primary-color:#215AB7;
+     --background-activated:#E1EAF9;
+     --background-focused:#E1EAF9;
+     --background-hover:#647B9D;
+     color:#F4F6FA;
+     border-radius: 25px;
+     --background:#215AB7;
+     background-color: #215AB7;
+   }
+ }
+ 
