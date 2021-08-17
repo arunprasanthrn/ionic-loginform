@@ -1,16 +1,24 @@
-ion-content{
-
-    --ion-background-colour:#98add1;
-};
 ion-header{
     position: absolute;
-};
-ion-toolbar{
-    --ion-background-color:transparent;
-    --opacity:0;
+  }
+  
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity: 0;
+  }
+  
+  ion-content{
+    --ion-background-color:#E1EAF9 !important;
+    --ion-item-background: transparent !important;
+  }
+ion-item{
+    color: black;
 }
-ion-card{
-    box-shadow: none;
+ion-icon{
+    color: black;
+}
+ion-input{
+    color: black;
 }
 .img1{
     position: absolute;
@@ -26,9 +34,14 @@ ion-card{
     font-size: medium;
     font-style: italic;
     position:relative;
+    
+   
 }
 .txt2{
    margin-top: 25px;
+   color-scheme: light;
+
+
 }
 
 .login:hover {

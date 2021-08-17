@@ -1,16 +1,22 @@
-ion-content{
-
-    --ion-background-colour:#98add1;
-};
 ion-header{
     position: absolute;
-};
-ion-toolbar{
-    --ion-background-color:transparent;
-    --opacity:0;
-}
+  }
+  
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity: 0;
+  }
+  
+  ion-content{
+    --ion-background-color:#E1EAF9 !important;
+    --ion-item-background: transparent !important;
+  }
+  
 ion-card{
     box-shadow: none;
+}
+ion-icon{
+    color: black;
 }
 .img1{
     width:110%;
@@ -31,14 +37,17 @@ ion-card{
 }
 .credentials1{
     font-size: smaller;
-    width:70%;   
+    width:70%;
+    color: black;   
+    color-scheme: light;
    
 }
 .credentials2{
    
     font-size: smaller;
-    
+    color: black;
     width:70%;
+    color-scheme: light;
     
    
 }
@@ -50,14 +59,6 @@ ion-card{
     margin-left: 80px;
     margin-top: 2px;
     font-size:small;
-    --ion-primary-color:#215AB7;
-    --background-activated:#E1EAF9;
-    --background-focused:#E1EAF9;
-    --background-hover:#647B9D;
-    color:#F4F6FA;
-    border-radius: 25px;
-    --background:#215AB7;
-    background-color: #215AB7;
     
     
 }
@@ -67,8 +68,8 @@ ion-card{
 .fpassword{
     color: rgb(0, 0, 0);
     font-size: small;
-    margin-left: 170px;
-    margin-top: 25px;
+    margin-left: 150px;
+    margin-top: 15px;
     position: relative;
 
 }
@@ -78,6 +79,7 @@ ion-card{
 .txt1{
     text-align:  center;
     font-size: smaller;
+    color: black;
 }
 .socialbut
 {
@@ -127,5 +129,9 @@ ion-card{
      --background:#215AB7;
      background-color: #215AB7;
    }
+ }
+ .error_message{
+     color: red;
+     font-size:x-small;
  }
  

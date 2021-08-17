@@ -8,9 +8,8 @@
 </ion-header>
 
 <ion-content>
-  <ion-card class="ion-no-margin">
+ 
   <ion-img   class="img2" src="assets\images\5.jpg"></ion-img>
-  
   
   <form [formGroup]="validationFormUser" (ngSubmit)="LoginUser(validationFormUser.value)">
     <div>
@@ -42,7 +41,7 @@
       <p class="fpassword"(click)="RedirectToForgotPassword()">Forgot Password</p>
     </div>
     <div class="sign-btn-wrap">
-    <ion-button fill="solid" shape="round" class="sign-btn" [disabled]="!validationFormUser.valid" >Click TO Login</ion-button>
+    <ion-button fill="solid" shape="round" class="sign-btn" type="submit" [disabled]="!validationFormUser.valid" >Click TO Login</ion-button>
   </div>
     <div class="socialbut">
       <p class="txt1" >Or Login Via</p>
@@ -57,7 +56,7 @@
       </ion-button>
     </div>
     </form>
-</ion-card>
+
   <p class="txt1" >don't have account ? <ion-button fill="outline" shape="round"  class="signup" (click)=" RedirectTosignup()">signup</ion-button></p>
   <ion-img  class="home" src="assets\images\home.png"  (click)="RedirectTologin()"></ion-img>
 </ion-content>
