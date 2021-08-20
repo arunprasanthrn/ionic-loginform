@@ -54,7 +54,7 @@ export class LoginscreenPage implements OnInit {
       try{
          this.authservice.loginFireAuth(value).then( resp =>{
            console.log(resp);
-           this.router.navigateByUrl('/login');
+           this.router.navigateByUrl('/tabs');
       })
     }catch(err){
         console.log(err);

@@ -1,5 +1,7 @@
 {
   "name": "loginform",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

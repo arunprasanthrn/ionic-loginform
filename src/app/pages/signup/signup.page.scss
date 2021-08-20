@@ -1,69 +1,81 @@
 ion-header{
-    position: absolute;
-  }
-  
-  ion-toolbar{
-    --ion-background-color: transparent;
-    --opacity: 0;
-  }
-  
-  ion-content{
-    --ion-background-color:#E1EAF9 !important;
-    --ion-item-background: transparent !important;
-  }
+  position: absolute;
+}
+
+ion-toolbar{
+  --ion-background-color: transparent;
+  --opacity: 0;
+}
+
+ion-content{
+  --ion-background-color:#E1EAF9 !important;
+  --ion-item-background: transparent !important;
+}
 ion-item{
-    color: black;
+  color: black;
 }
 ion-icon{
-    color: black;
+  color: black;
 }
 ion-input{
-    color: black;
+  color: black;
 }
 .img1{
-    position: absolute;
+  position: absolute;
 }
 .home{
-    
-    width: 20%;
-    margin-left: 220px;
+  
+  width: 20%;
+  margin-left: 220px;
 }
 .txt1{
-    text-align: center;
-    margin-top: 200px;
-    font-size: medium;
-    font-style: italic;
-    position:relative;
-    
-   
+  text-align: center;
+  margin-top: 180px;
+  font-size: medium;
+  font-style: italic;
+  position:relative;
+  color:black ;
+  
+ 
 }
 .txt2{
-   margin-top: 25px;
-   color-scheme: light;
+ margin-top: 0px;
+ color-scheme: light;
+ position: relative;
 
 
 }
 
 .login:hover {
-    transform: scale(1.1);
-  }
+  transform: scale(1.1);
+}
 .login
 {
-    color:white;
-    width:35%;
-    margin-left: 90px;
-    margin-top: 25px;
-    
-    
+  color:white;
+  width:25%;
+  margin-left: 90px;
+  margin-top: 10px;
+  
+  
 }
 .signup:hover {
-    transform: scale(1.1);
-  }
+  transform: scale(1.1);
+}
 .signup
 {
-    color:blue;
-    width:35%;
-    margin-left: 90px;
-    margin-top: 25px;
-    
+  color:blue;
+  width:25%;
+  margin-left: 90px;
+  margin-top: 10px;
+  
 }
+
+.error_message{
+  font-size: 10px;
+  font-weight:200;
+  color: #913e07;
+}
+
+
+
+
