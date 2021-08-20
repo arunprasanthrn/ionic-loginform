@@ -1,18 +1,25 @@
 ion-content{
-
-    --ion-background-colour:#98add1;
-    
-};
+    --ion-background-color:#E1EAF9 ;
+  }
+  
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity:0;
+  }
+  
+  ion-card{
+    background-color: transparent;
+    padding: 0 ;
+    box-shadow: none;
+        
+   
+  }
+  
 ion-header{
     position: absolute;
-};
-ion-toolbar{
-    --ion-background-color:transparent;
-    --opacity:0;
+    
 }
-ion-card{
-    box-shadow: none;
-}
+
 .img1{
     position: absolute;
 }
