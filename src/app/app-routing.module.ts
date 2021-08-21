@@ -37,6 +37,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule),
     canActivate: [AuthGuard]
   },
+  {
+    path: 'uploadimage',
+    loadChildren: () => import('./pages/uploadimage/uploadimage.module').then( m => m.UploadimagePageModule)
+  },
 ];
 
 @NgModule({
