@@ -1,0 +1,39 @@
+ion-header{
+    position: absolute;
+  }
+  
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity: 0;
+  }
+  
+  ion-content{
+    --ion-background-color:rgb(183, 178, 207);
+    color-scheme: light;
+}
+  ion-title{
+      color: black;
+      text-align: center;
+      
+  }
+  ion-button{
+    --background:#444444;
+}
+.uploadimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+
+}
+
+
+.btn{
+      background-color:#333c50;
+      text-align: center;
+      color: #7e8e96;
+      margin-top: 5px;
+      margin-top: 200px;
+      
+}

@@ -82,7 +82,7 @@ loading:any;
        this.router.navigate(['loginscreen']);
        }
      }, error=>{
-       this.loading.dismiss();
+       this.loadingCtrl.dismiss();
        this.errorLoading(error.message);
   
      })
